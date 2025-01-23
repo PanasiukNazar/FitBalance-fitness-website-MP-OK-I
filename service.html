@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>FitBalance</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="Free HTML Templates" name="keywords" />
+        <meta content="Free HTML Templates" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Carousel Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav
+                class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0 sticky-top shadow-sm"
+            >
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="m-0">FitBalance</h1>
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link"
+                            >Главная</a
+                        >
+                        <a href="about.html" class="nav-item nav-link">О Нас</a>
+                        <a href="service.html" class="nav-item nav-link active"
+                            >Услуги</a
+                        >
+                        <a href="testimonials.html" class="nav-item nav-link"
+                            >Отзывы</a
+                        >
+                        <a href="contact.html" class="nav-item nav-link"
+                            >Контакты</a
+                        >
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar & Carousel End -->
+
+        <!-- Full Screen Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1">
+            <div class="modal-dialog modal-fullscreen">
+                <div
+                    class="modal-content"
+                    style="background: rgba(9, 30, 62, 0.7)"
+                >
+                    <div class="modal-header border-0">
+                        <button
+                            type="button"
+                            class="btn bg-white btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div
+                        class="modal-body d-flex align-items-center justify-content-center"
+                    >
+                        <div class="input-group" style="max-width: 600px">
+                            <input
+                                type="text"
+                                class="form-control bg-transparent border-primary p-3"
+                                placeholder="Type search keyword"
+                            />
+                            <button class="btn btn-primary px-4">
+                                <i class="bi bi-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Full Screen Search End -->
+
+        <!-- Service Start -->
+        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div
+                    class="section-title text-center position-relative pb-3 mb-5 mx-auto"
+                    style="max-width: 600px"
+                >
+                    <h5 class="fw-bold text-primary text-uppercase">
+                        Мы предлагаем широкий спектр инструментов для фитнеса и
+                        похудения.
+                    </h5>
+                    <h1 class="mb-0">
+                        Наши инструменты для похудения и фитнеса
+                    </h1>
+                </div>
+                <div class="row g-5">
+                    <div
+                        class="col-lg-6 col-md-6 wow zoomIn"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center"
+                        >
+                            <div class="service-icon">
+                                <i class="fa fa-calendar text-white"></i>
+                            </div>
+                            <h4 class="mb-3">Планировщики тренировок</h4>
+                            <p class="m-0">
+                                Мы предоставляем эффективные планировщики
+                                тренировок, которые помогут вам организовать
+                                свои занятия фитнесом и автоматизировать процесс
+                                достижения ваших целей по похудению.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-6 wow zoomIn"
+                        data-wow-delay="0.6s"
+                    >
+                        <div
+                            class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center"
+                        >
+                            <div class="service-icon">
+                                <i class="fa fa-chart-line text-white"></i>
+                            </div>
+                            <h4 class="mb-3">Анализ прогресса в похудении</h4>
+                            <p class="m-0">
+                                Мы предоставляем инструменты для анализа ваших
+                                результатов в процессе похудения. Эти
+                                инструменты помогут вам отслеживать изменения
+                                веса и состав тела, анализировать тренды и
+                                оптимизировать ваши фитнес-стратегии.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-6 wow zoomIn"
+                        data-wow-delay="0.9s"
+                    >
+                        <div
+                            class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center"
+                        >
+                            <div class="service-icon">
+                                <i class="fa fa-dumbbell text-white"></i>
+                            </div>
+                            <h4 class="mb-3">
+                                Инструменты для фитнеса и здоровья
+                            </h4>
+                            <p class="m-0">
+                                Мы предлагаем инновационные инструменты для
+                                фитнеса, которые помогают вам создавать и
+                                управлять тренировками, а также следить за своим
+                                прогрессом в похудении и поддержании здоровья.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-6 wow zoomIn"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center"
+                        >
+                            <div class="service-icon">
+                                <i class="fa fa-user-friends text-white"></i>
+                            </div>
+                            <h4 class="mb-3">Поддержка и мотивация</h4>
+                            <p class="m-0">
+                                Мы предоставляем инструменты для поддержки и
+                                мотивации, которые помогут вам оставаться на
+                                пути к вашим целям по похудению и фитнесу. Эти
+                                решения помогут вам эффективно взаимодействовать
+                                с единомышленниками и получать поддержку.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-6 wow zoomIn"
+                        data-wow-delay="0.6s"
+                    >
+                        <div
+                            class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center"
+                        >
+                            <div class="service-icon">
+                                <i class="fa fa-search text-white"></i>
+                            </div>
+                            <h4 class="mb-3">Поиск фитнес-трендов</h4>
+                            <p class="m-0">
+                                Мы предлагаем инструменты для поиска популярных
+                                фитнес-трендов и методов похудения, чтобы ваш
+                                подход к тренировкам оставался актуальным и
+                                эффективным. Наши решения помогут вам находить
+                                новые идеи и стратегии для достижения ваших
+                                целей.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-6 wow zoomIn"
+                        data-wow-delay="0.9s"
+                    >
+                        <div
+                            class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5"
+                        >
+                            <h3 class="text-white mb-3">Поддержка клиентов</h3>
+                            <p class="text-white mb-3">
+                                Мы предлагаем онлайн-поддержку для наших
+                                клиентов, чтобы ответить на ваши вопросы и
+                                помочь в решении любых проблем, связанных с
+                                фитнесом и похудением.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-light mt-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+        >
+            <div class="container">
+                <div class="row gx-5">
+                    <div class="col-lg-12">
+                        <div class="row gx-5">
+                            <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                                <div
+                                    class="section-title section-title-sm position-relative pb-3 mb-4"
+                                >
+                                    <h3 class="text-light mb-0">О Нас</h3>
+                                </div>
+                                <p>
+                                    Мы предоставляем профессиональные
+                                    инструменты для похудения, фитнесса и
+                                    здорового образа жизни. Наша цель —
+                                    поддержать вас на пути к потере веса и
+                                    достижению вашей идеальной формы.
+                                </p>
+                            </div>
+                            <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                                <div
+                                    class="section-title section-title-sm position-relative pb-3 mb-4"
+                                >
+                                    <h3 class="text-light mb-0">
+                                        Свяжитесь с нами
+                                    </h3>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <i
+                                        class="bi bi-geo-alt text-primary me-2"
+                                    ></i>
+                                    <p class="mb-0">
+                                        Männiku tee 89, Talinn,11213, Эстония
+                                    </p>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <i
+                                        class="bi bi-envelope-open text-primary me-2"
+                                    ></i>
+                                    <p class="mb-0">
+                                        denisovaekaterina015@gmail.com
+                                    </p>
+                                </div>
+
+                                <div class="d-flex mb-2">
+                                    <i
+                                        class="bi bi-person-circle text-primary me-2"
+                                    ></i>
+                                    <p class="mb-0">Mark Rinko</p>
+                                </div>
+
+                                <div class="d-flex mb-2">
+                                    <i
+                                        class="bi bi-telephone text-primary me-2"
+                                    ></i>
+                                    <p class="mb-0">+3726650270</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                                <div
+                                    class="section-title section-title-sm position-relative pb-3 mb-4"
+                                >
+                                    <h3 class="text-light mb-0">
+                                        Быстрые ссылки
+                                    </h3>
+                                </div>
+                                <div
+                                    class="link-animated d-flex flex-column justify-content-start"
+                                >
+                                    <a
+                                        class="text-light mb-2"
+                                        href="index.html"
+                                    >
+                                        <i
+                                            class="bi bi-arrow-right text-primary me-2"
+                                        ></i
+                                        >Главная</a
+                                    >
+                                    <a
+                                        class="text-light mb-2"
+                                        href="about.html"
+                                    >
+                                        <i
+                                            class="bi bi-arrow-right text-primary me-2"
+                                        ></i
+                                        >О нас</a
+                                    >
+                                    <a
+                                        class="text-light mb-2"
+                                        href="service.html"
+                                    >
+                                        <i
+                                            class="bi bi-arrow-right text-primary me-2"
+                                        ></i
+                                        >Программы для похудения</a
+                                    >
+                                    <a
+                                        class="text-light mb-2"
+                                        href="contact.html"
+                                    >
+                                        <i
+                                            class="bi bi-arrow-right text-primary me-2"
+                                        ></i
+                                        >Контакты</a
+                                    >
+                                    <a
+                                        class="text-light mb-2"
+                                        href="privacy-policy.html"
+                                    >
+                                        <i
+                                            class="bi bi-arrow-right text-primary me-2"
+                                        ></i
+                                        >Политика конфиденциальности</a
+                                    >
+                                    <a
+                                        class="text-light"
+                                        href="terms-of-use.html"
+                                    >
+                                        <i
+                                            class="bi bi-arrow-right text-primary me-2"
+                                        ></i
+                                        >Условия и положения</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Согласие на использование файлов cookie
+                </h2>
+            </div>
+            <div class="data">
+                <p>
+                    Этот веб-сайт использует файлы cookie, чтобы обеспечить вам
+                    более качественный и релевантный опыт просмотра на сайте.
+                    <a href="privacy-policy.html">Узнать больше...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
